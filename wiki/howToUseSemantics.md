@@ -37,6 +37,7 @@ Or import the project to pom.xml
    </div>
 
 <div>
+
 Eiffel REMReM Semantics contains implementation of Eiffel REMReM Protocol Interface. All methods of interface MsgService are implemented by SemanticsService class: generateMsg, getEventId, getEventType, getSupportedEventTypes, getEventTemplate, getServiceName, validateMsg, generateRoutingKey. Also in this class could be implemented more methods depending on the needs of developer.
 
 The main task of Eiffel Semantics is to check a correctness of Eiffel message. Project contains JSON schemas for each Eiffel type of event. If you need to create new event type, you need to define the JSON schema for this event.
@@ -50,22 +51,8 @@ All Eiffel events consist of 3 logical JSON objects: meta, data and links. The m
 ## Messages Table
 
 Reference to Eiffel event templates can be found and downloaded from **[Templates](templates.md)**. 
-
-Templates for Eiffel events to be used with [REMReM Generate](https://github.com/eiffel-community/eiffel-remrem-generate) are found below.  
-Template can be downloaded and all fields labelled as required are to be mandatorily filled.  
-The JSON file can be used with Eiffel REMReM Generate as described [here](https://eiffel-community.github.io/eiffel-remrem-generate/).
-
-<font style="color: red;">Note¹: templates are avaialable from eiffel-remrem-semantics-0.2.5 version</font>
-
-
-<font style="color: red;">Note²: templates are in full JSON syntax and filenames are in lowercase from eiffel-remrem-semantics-0.3.5 version</font>
-
 </div>
 
-<div>
-<a href = "semantics.html">Choose Eiffel REMReM Semantics version:</a>
-</div>
-<div id="footer_wrap" class="outer">
 
 <footer class="inner">
 
