@@ -49,7 +49,7 @@ All Eiffel events consist of 3 logical JSON objects: meta, data and links. The m
 
 ## Messages Table
 
-Reference to Eiffel event templates can be found and downloaded from **[Templates](https://github.com/SantoshNC68/eiffel-remrem-semantics/blob/xlakann/master/wiki/semantics.html)**. 
+Reference to Eiffel event templates can be found and downloaded from **[Templates](templates.md)**. 
 
 Templates for Eiffel events to be used with [REMReM Generate](https://github.com/eiffel-community/eiffel-remrem-generate) are found below.  
 Template can be downloaded and all fields labelled as required are to be mandatorily filled.  
